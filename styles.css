@@ -1,18 +1,33 @@
 body {
-  background-color: rgb(221, 148, 193);
+  background-color: rgba(244, 173, 126, 0.858);
 }
 h1 {
   color: rgb(27, 2, 75);
 }
 p {
-  color: rgb(27, 2, 75);
+  color: rgba(134, 5, 5, 0.913);
+}
+h1 {
+  font-family: Georgia, serif;
 }
 body {
   font-family: Georgia, sans-serif;
 }
 h1  {
-  font-size: 60px;
+  font-size: 48px;
 }
 h1 {
   text-align: center;
+}
+h2 {
+  color: rgb(27, 2, 75);
+}
+h2 {
+  font-family: Georgia, serif;
+}
+ul {
+  color: rgba(134, 5, 5, 0.913);
+}
+ol {
+  color: rgba(134, 5, 5, 0.913);
 }
