@@ -31,3 +31,16 @@ ul {
 ol {
   color: rgba(134, 5, 5, 0.913);
 }
+.about-section {
+  background: rgba(242, 219, 219, 0.8);
+  color: aliceblue;
+  padding: 20px;
+  margin: 20px;
+  width: 500px;
+  border-radius: 10px;
+}
+
+#disclaimer {
+  border: 5px solid red;
+}
+
