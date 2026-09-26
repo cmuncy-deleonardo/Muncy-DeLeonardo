@@ -42,4 +42,9 @@ ol {
 #disclaimer {
   border: 5px solid red;
 }
-
+nav {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-evenly;
+  width: 100%;
+}
