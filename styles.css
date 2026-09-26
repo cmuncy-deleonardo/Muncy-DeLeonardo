@@ -42,20 +42,20 @@ ol {
 #disclaimer {
   border: 5px solid red;
 }
-ul {
+nav ul {
   display: flex;
   gap: 1rem;
   justify-content: space-evenly;
   width: 100%;
 } 
-  ul {
+  nav ul {
     border: 5px solid rgb(17, 77, 3);
     border-radius: 8px;
     padding-inline: 0;
     padding: 1rem;
   }
   
-  li {
+ nav li {
     background-color: rgb(38, 168, 9);
     list-style: none;
     padding: .5rem;
