@@ -32,7 +32,7 @@ ol {
   color: rgba(134, 5, 5, 0.913);
 }
 .about-section {
-  background: rgba(242, 219, 219, 0.8);
+  background: #f2dbdbcc;
   color: aliceblue;
   padding: 20px;
   margin: 20px;
@@ -49,14 +49,14 @@ ul {
   width: 100%;
 } 
   ul {
-    border: 1px solid rgb(38, 168, 9);
+    border: 5px solid rgb(17, 77, 3);
     border-radius: 8px;
     padding-inline: 0;
     padding: 1rem;
   }
   
   li {
-    background-color: black;
+    background-color: rgb(38, 168, 9);
     list-style: none;
     padding: .5rem;
     
