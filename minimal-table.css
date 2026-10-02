@@ -1,3 +1,9 @@
+body {
+  background-color: rgba(202, 237, 245, 0.858);
+}
+h1 {
+  color: rgb(45, 45, 46);
+}
 html {
   font-family: georgia, serif;
 }
