@@ -61,5 +61,29 @@
     </tbody>
 
 </table>
+<form action="./submit_page" method="get">
+      <h2>Register for a class</h2>
+      <p>
+        <label for="name">Name (required):</label>
+        <input type="text" name="name" id="name" required />
+      </p>
+      <p>
+        <label for="email">Email (required):</label>
+        <input type="email" name="email" id="email" required />
+      </p>
+  <label for="program">Programs:</label>
+<select name="program" id="program">
+  <option value="">-Select a Program-</option>
+  <option value="community book club">Community Book Club</option>
+  <option value="family story time">Family Story Time</option>
+  <option value="genealogy work shop">Genealogy Workshop</option>
+  <option value="intro to 3d printing">Intro to 3D Printing</option>
+  <option value="local history talk">Local History Talk</option>
+  
+</select>
+      <p>
+        <button>Sign me up!</button>
+      </p>
+    </form>
   </body>
 </html>
