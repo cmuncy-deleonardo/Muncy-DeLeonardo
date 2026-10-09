@@ -37,3 +37,13 @@ tr:nth-child(odd) td {
   background-color: rgb(231, 209, 215);
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+footer {
+  margin-top: auto;
+}
