@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(202, 237, 245, 0.858);
+  background-color: rgba(238, 239, 240, 0.377);
 }
 h1 {
   color: rgb(45, 45, 46);
@@ -16,19 +16,19 @@ h1 {
 
 table {
   border-collapse: collapse;
-  border: 2px solid rgb(243, 168, 214);
+  border: 2px solid rgb(103, 99, 101);
   letter-spacing: 1px;
   font-size: 0.8rem;
 }
 
 td,
 th {
-  border: 1px solid rgb(207, 122, 179);
+  border: 1px solid rgb(218, 214, 217);
   padding: 10px 20px;
 }
 
 th {
-  background-color: rgb(234, 207, 226);
+  background-color: rgba(228, 225, 228, 0.829);
 }
 
 td {
