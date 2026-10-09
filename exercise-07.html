@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Table template</title>
+    <link href="minimal-table.css" rel="stylesheet" type="text/css">
+    <style>
+            .container {
+                display: grid;
+                grid-template-columns: 100px auto;
+                grid-template-rows: 50px 50px 200px;
+                grid-gap: 3px;
+            }
+        </style>
+
+  </head>
+  <body>
+  <div class="container">
+    <div>
+<h1>Library Programs</h1>
+<table>
+  <caption>
+    Upcoming programs at the library. All programs are free and open to the public.
+  </caption>
+  <thead>
+  <tr>
+    <th scope="col">Program</th>
+    <th scope="col">Date</th>
+    <th scope="col">Time</th>
+    <th scope="col">Location</th>
+    <th scope="col">Audience</th>
+  </tr>
+  </thead>
+    <tbody>
+  <tr>
+    <td>Community Book Club</td>
+    <td>October 8</td>
+    <td>6:30 p.m.</td>
+    <td>Room A</td>
+    <td>Adults</td>
+  </tr>
+  <tr>
+    <td>Family Story Time</td>
+    <td>October 10</td>
+    <td>10:00 a.m.</td>
+    <td>Children's Room</td>
+    <td>Families</td>
+  </tr>
+  <tr>
+    <td>Genealogy Workshop</td>
+    <td>October 12</td>
+    <td>2:00 p.m.</td>
+    <td>Room B</td>
+    <td>Adults</td>
+  </tr>
+    <tr>
+        <td>Intro to 3D Printing</td>
+        <td>October 15</td>
+        <td>6:00 p.m.</td>
+        <td>Makerspace</td>
+        <td>Teens & Adults</td> 
+    </tr>
+    <tr>
+        <td>Local History Talk</td>
+        <td>October 18</td>
+        <td>1:00 p.m.</td>
+        <td>Auditorium</td>
+        <td>Everyone</td>
+    </tr>
+    </tbody>
+
+</table>
+<h2>Register for a class</h2>
+<form>
+      <div>
+        <label for="name">Name (required):</label>
+        <input type="text" name="name" id="name" required />
+      </div>
+      <div>
+        <label for="email">Email (required):</label>
+        <input type="email" name="email" id="email" required />
+      </div>
+      <div>
+        <label for="program">Programs:</label>
+        <select name="program" id="program">
+          <option value="">-Select a Program-</option>
+          <option value="community book club">Community Book Club</option>
+          <option value="family story time">Family Story Time</option>
+          <option value="genealogy work shop">Genealogy Workshop</option>
+          <option value="intro to 3d printing">Intro to 3D Printing</option>
+          <option value="local history talk">Local History Talk</option>
+        </select>
+      </div>    
+      <div> 
+  <input type="radio" id="in-person" name="attendance-type" value="In Person"> 
+  <label for="in-person">In Person</label> 
+      </div> 
+      <div> 
+  <input type="radio" id="online" name="attendance-type" value="Online"> 
+  <label for="online">Online</label> 
+      </div>
+      <div>
+        <button type="submit">Sign me up!</button>
+      </div>
+    </form>
+    <div>
+      <h2>Contact Us!</h2>
+      <p>centralillib@libpub.com <br>
+        217-777-7777 </p>
+        <h2>Hours</h2>
+       <p> Mon - Fri from 8:00 am to 10:00 pm<br> 
+      Saturday - Sunday from 10:00 am - 5:00 pm 
+      </p>
+  </body>
+  <footer>This Website is Supported by the Central IL Public Library Foundation</footer>
+</html>
