@@ -8,6 +8,17 @@ h1 {
   font-weight: 400;
   font-style: normal;
 }
+caption {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+p {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  margin: 10px 0;
+}
 html {
   font-family: georgia, serif;
 }
@@ -57,6 +68,15 @@ body {
   justify-content: space-between;
   gap: 20px;
 }
+.main-content {
+  flex: 3;
+  padding: 10px;
+}
+.sidebar {
+  flex: 1;
+  background-color: rgba(228, 225, 228, 0.829);
+  padding: 10px;
+}
 button:hover,
 button:focus {
   background-color: grey;
@@ -64,4 +84,6 @@ button:focus {
 }
 footer {
   margin-top: auto;
+  padding: 10px;
+  background-color: rgba(228, 225, 228, 0.829);
 }
