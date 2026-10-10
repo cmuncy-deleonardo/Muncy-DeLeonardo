@@ -68,6 +68,12 @@ tr:nth-child(odd) td {
 caption {
   padding: 10px;
 }
+header {
+  background-color: rgba(228, 225, 228, 0.829);
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
 .content-wrapper {
   display: flex;
   flex-direction: row;
