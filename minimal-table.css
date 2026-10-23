@@ -121,8 +121,6 @@ footer {
     padding: 6px 4px;   
   }
 }
-}
-
 @media all and (min-width: 768px) {
   .content-wrapper {
     flex-direction: row;
