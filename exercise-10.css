@@ -10,7 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  margin: 10px; /* Fixed: Added px unit */
+  margin: 10px; /
 }
 
 h1 {
@@ -22,6 +22,11 @@ h1 {
 }
 
 .main-content button {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  flex-wrap: wrap;        
+  gap: 20px;    
   position: relative;
   overflow: hidden;
   cursor: pointer;
@@ -43,7 +48,6 @@ display: block;
 }
 
 .main-content button:hover {
-    cursor: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgc3R5bGU9ImZvbnQtc2l6ZTozMHB4Ij48dGV4dCB5PSIzMCI+🔪PC90ZXh0Pjwvc3ZnPg=="), auto;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4), 0 0 25px rgba(255, 0, 0, 0.8);
    transform: translateY(-3px);
   filter: grayscale(1) sepia(1) hue-rotate(-50deg) saturate(3);
