@@ -60,13 +60,13 @@ display: block;
 }
 
 .main-content button:hover {
+   cursor: url('1F52A_color\ resized.png'), auto; 
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4), 0 0 25px rgba(255, 0, 0, 0.8);
    transform: translateY(-3px);
   filter: grayscale(1) sepia(1) hue-rotate(-50deg) saturate(3);
 }
 
 .fact-text {
-  
   position: absolute;
   top: 0;
   left: 0;
