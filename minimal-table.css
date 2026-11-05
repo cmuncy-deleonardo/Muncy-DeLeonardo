@@ -96,6 +96,11 @@ button:hover,
 button:focus {
   background-color: grey;
   outline: 2px solid black; 
+  }
+#program-description {
+  font-size: 1rem;      
+  font-weight: bold;         
+  color: #222222;     
 }
 footer {
   margin-top: auto;
@@ -133,4 +138,3 @@ footer {
   .content-wrapper {
     flex-direction: row;
   }
-}
