@@ -96,11 +96,6 @@ button:hover,
 button:focus {
   background-color: grey;
   outline: 2px solid black; 
-
-button.revealed {
-  background-color: #333;
-  color: #fff;
-}
 }
 footer {
   margin-top: auto;
