@@ -137,4 +137,5 @@ footer {
 @media all and (min-width: 1200px) {
   .content-wrapper {
     flex-direction: row;
-  }
+  } 
+}
