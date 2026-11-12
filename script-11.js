@@ -1,9 +1,11 @@
 {
   const buttons = document.querySelectorAll('.program-btn');
   const descriptionBox = document.querySelector('#program-description');
-  
   const signupBtn = document.querySelector('#signup-btn');
   const programDropdown = document.querySelector('#program');
+  const form = document.querySelector('form');
+  const nameInput = document.querySelector('#name');
+  const confirmationMessage = document.querySelector('#confirmation-message');
 
   buttons.forEach(button => {
     button.addEventListener('click', () => {
@@ -13,7 +15,6 @@
       
       if (isAlreadyShowing) {
         descriptionBox.textContent = "";
-    
         signupBtn.style.display = "none";
       } else {
         button.classList.add('revealed');
@@ -26,7 +27,6 @@
         signupBtn.style.display = "inline-block";
         
         signupBtn.onclick = () => {
-          
           for (let i = 0; i < programDropdown.options.length; i++) {
             if (programDropdown.options[i].text === programName) {
               programDropdown.selectedIndex = i;
@@ -35,11 +35,18 @@
           }
           
           programDropdown.closest('form').scrollIntoView({ behavior: 'smooth' });
-          
           programDropdown.focus();
         };
       }
     });
   });
-}
 
+  form.addEventListener('submit', (event) => {
+    event.preventDefault();
+
+    const userName = nameInput.value;
+    const selectedProgram = programDropdown.options[programDropdown.selectedIndex].text;
+
+    confirmationMessage.textContent = `Thank you, ${userName}! We look forward to you joining the ${selectedProgram}.`;
+  });
+}
