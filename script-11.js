@@ -23,7 +23,7 @@
         descriptionBox.textContent = descriptionText;
         
         const programName = button.textContent;
-        signupBtn.textContent = `Continue to Sign Up for ${programName}`;
+        signupBtn.textContent = `Click to select ${programName}`;
         signupBtn.style.display = "inline-block";
         
         signupBtn.onclick = () => {
