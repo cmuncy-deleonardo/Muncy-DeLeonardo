@@ -47,6 +47,6 @@
     const userName = nameInput.value;
     const selectedProgram = programDropdown.options[programDropdown.selectedIndex].text;
 
-    confirmationMessage.textContent = `Thank you, ${userName}! We look forward to you joining the ${selectedProgram}.`;
+    confirmationMessage.textContent = `Thank you, ${userName}! We look forward to you joining our ${selectedProgram}.`;
   });
 }
