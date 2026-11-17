@@ -6,6 +6,7 @@
   const form = document.querySelector('form');
   const nameInput = document.querySelector('#name');
   const confirmationMessage = document.querySelector('#confirmation-message');
+   const submitBtn = form.querySelector('button[type="submit"]');
 
   buttons.forEach(button => {
     button.addEventListener('click', () => {
@@ -33,6 +34,10 @@
               break;
             }
           }
+         submitBtn.textContent = "Sign me up!";
+          submitBtn.disabled = false; 
+          
+signupBtn.textContent = `Selected ${programName}!`;
           
           programDropdown.closest('form').scrollIntoView({ behavior: 'smooth' });
           programDropdown.focus();
@@ -40,7 +45,11 @@
       }
     });
   });
-
+  programDropdown.addEventListener('change', () => {
+    submitBtn.textContent = "Sign me up!";
+    submitBtn.disabled = false;
+  });
+  
   form.addEventListener('submit', (event) => {
     event.preventDefault();
 
@@ -48,5 +57,8 @@
     const selectedProgram = programDropdown.options[programDropdown.selectedIndex].text;
 
     confirmationMessage.textContent = `Thank you, ${userName}! We look forward to you joining our ${selectedProgram}.`;
+
+        submitBtn.textContent = "Signed Up!";
+    submitBtn.disabled = true;
   });
 }
