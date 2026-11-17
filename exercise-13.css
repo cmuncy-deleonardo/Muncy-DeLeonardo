@@ -105,8 +105,7 @@ header {
 }
 button:hover,
 button:focus {
-  background-color: #FBB82C;
-  outline: 2px solid #fa8e00; 
+  background-color: #FBB82C; 
   }
 #program-description {
   font-size: 1rem;      
