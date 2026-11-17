@@ -15,6 +15,12 @@ h1 {
   font-weight: 400;
   font-style: normal;
 }
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
 .logo {
   width: 95px;
   height: 95px;
