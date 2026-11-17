@@ -50,7 +50,7 @@ th {
 }
 
 th {
-  background-color: rgba(228, 225, 228, 0.829);
+  background-color: #F96D56;
 }
 
 td {
@@ -62,7 +62,7 @@ tr:nth-child(even) td {
 }
 
 tr:nth-child(odd) td {
-  background-color: rgb(231, 209, 215);
+  background-color: #28AFA1;
 }
 
 caption {
@@ -94,8 +94,8 @@ header {
 }
 button:hover,
 button:focus {
-  background-color: grey;
-  outline: 2px solid black; 
+  background-color: #FBB82C;
+  outline: 2px solid #fa8e00; 
   }
 #program-description {
   font-size: 1rem;      
