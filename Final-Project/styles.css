@@ -2,10 +2,10 @@ body {
   background-color: rgba(248, 237, 229, 0.945);
 }
 h1 {
-  color: rgb(27, 2, 75);
+  color: rgb(102, 100, 104);
 }
 p {
-  color: rgba(134, 5, 5, 0.913);
+  color: rgba(102, 100, 104);
 }
 h1 {
   font-family: Georgia, serif;
@@ -20,16 +20,16 @@ h1 {
   text-align: center;
 }
 h2 {
-  color: rgb(27, 2, 75);
+  color: rgb(102, 100, 104);
 }
 h2 {
   font-family: Georgia, serif;
 }
 ul {
-  color: rgba(134, 5, 5, 0.913);
+  color: rgba(102, 100, 104);
 }
 ol {
-  color: rgba(134, 5, 5, 0.913);
+  color: rgba(102, 100, 104);
 }
 .about-section {
   background: #fff3f3;
@@ -46,14 +46,14 @@ nav ul {
   width: 100%;
 } 
   nav ul {
-    border: 5px solid rgb(17, 77, 3);
+    border: 5px solid rgb(102, 100, 104);
     border-radius: 8px;
     padding-inline: 0;
     padding: 1rem;
   }
   
  nav li {
-    background-color: rgb(38, 168, 9);
+    background-color: rgb(102, 100, 104);
     list-style: none;
     padding: .5rem;
     
